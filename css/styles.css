@@ -16,10 +16,6 @@ body {
   text-decoration: none;
 }
 
-.address {
-  font-style: 400;
-}
-
 .logo {
   font-family: var(--secondary-font);
   font-style: 400;
@@ -150,23 +146,20 @@ body {
   color: #757575;
 }
 
-.address-str {
-  font-style: 400;
+.address {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
-  /* or 171% */
   letter-spacing: 0.03em;
+  /* or 171% */
+}
+
+.address-str {
   /*color: #FFFFFF;*/
 }
 
 .address-contact {
-  font-style: 400;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1, 71;
-  /* or 171% */
-  letter-spacing: 0.03em;
   /*color: rgba(255, 255, 255, 0.6);*/
 }
 
