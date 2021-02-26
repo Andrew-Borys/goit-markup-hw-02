@@ -37,6 +37,7 @@ body {
 .logo-web-footer {
   color: #fff;
 }
+
 .nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -97,7 +98,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   background-color: var(--accent-color);
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
   letter-spacing: 0.06em;
 }
@@ -167,15 +168,53 @@ body {
   background-color: var(--background-color);
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-str {
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
 }
 
-.tel-contact,
-.mail-contact {
+.tel-address,
+.mail-address {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*Filter-button*/
+
+.navigation-btn {
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  cursor: pointer;
+  color: var(--title-text-color);
+}
+
+.navigation-btn:hover,
+.navigation-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/*Portfolio*/
+
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio-descrintion {
+  font-size: 16px;
+  line-height: 1.89;
+  color: var(--discription-text-color);
 }
