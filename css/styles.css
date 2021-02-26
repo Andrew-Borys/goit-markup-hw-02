@@ -2,6 +2,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+
 .list {
   list-style: none;
 }
@@ -15,7 +21,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-style: 400;
   font-weight: 700;
   font-size: 26px;
@@ -40,7 +46,7 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .mail-link,
@@ -55,12 +61,12 @@ body {
 
 .mail-link:hover,
 .mail-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .tel-link:hover,
 .tel-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .hero-title {
@@ -81,7 +87,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 187% */
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #fff;
   cursor: pointer;
   letter-spacing: 0.06em;
@@ -175,7 +181,7 @@ body {
 
 .navigation-btn:hover,
 .navigation-btn:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: aliceblue;
 }
 
