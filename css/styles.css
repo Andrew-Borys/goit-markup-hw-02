@@ -11,12 +11,12 @@ body {
 }
 
 .address {
-  font-style: normal;
+  font-style: 400;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+  font-style: 400;
   font-weight: bold;
   font-size: 26px;
   line-height: 1, 19;
@@ -30,6 +30,7 @@ body {
 }
 
 .nav-link {
+  font-style: 400;
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
@@ -44,6 +45,7 @@ body {
 
 .mail-link,
 .tel-link {
+  font-style: 400;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -62,27 +64,27 @@ body {
 }
 
 .hero-title {
-  font-style: normal;
+  font-style: 400;
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 36;
   /*color: #ffffff;*/
 }
 
-.hero-btn {
+.model-btn {
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
+  background-color: #2196f3;
   color: #fff;
   cursor: pointer;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #2196f3;
+.model-btn:hover,
+.model-btn:focus {
+  color: #fff;
 }
-
 .title-features {
   font-style: normal;
   font-weight: bold;
