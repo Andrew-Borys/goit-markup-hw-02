@@ -17,7 +17,7 @@ body {
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: 400;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
   /* identical to box height */
@@ -76,18 +76,25 @@ body {
   height: 50px;
   left: 700px;
   top: 430px;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 187% */
   background-color: #2196f3;
   color: #fff;
   cursor: pointer;
+  letter-spacing: 0.06em;
 }
 
 .model-btn:hover,
 .model-btn:focus {
   color: #fff;
 }
+
 .title-features {
-  font-style: normal;
-  font-weight: bold;
+  font-style: 400;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.03em;
@@ -96,8 +103,8 @@ body {
 }
 
 .discription-features {
-  font-style: normal;
-  font-weight: normal;
+  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
@@ -105,8 +112,8 @@ body {
 }
 
 .title-chapter {
-  font-style: normal;
-  font-weight: bold;
+  font-style: 400;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1, 16;
   letter-spacing: 0.03em;
@@ -114,7 +121,7 @@ body {
 }
 
 .title-staff {
-  font-style: normal;
+  font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 18;
@@ -124,8 +131,8 @@ body {
 }
 
 .staff-position {
-  font-style: normal;
-  font-weight: normal;
+  font-style: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1, 19;
 
@@ -134,8 +141,8 @@ body {
 }
 
 .address-str {
-  font-style: normal;
-  font-weight: normal;
+  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
   /* or 171% */
@@ -144,8 +151,8 @@ body {
 }
 
 .address-contact {
-  font-style: normal;
-  font-weight: normal;
+  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
   /* or 171% */
@@ -154,7 +161,7 @@ body {
 }
 
 .navigation-btn {
-  font-style: normal;
+  font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 63;
@@ -173,8 +180,8 @@ body {
 }
 
 .portfolio-title {
-  font-style: normal;
-  font-weight: bold;
+  font-style: 400;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2, 00;
   /* identical to box height, or 200% */
@@ -185,8 +192,8 @@ body {
 }
 
 .portfolio-descrintion {
-  font-style: normal;
-  font-weight: normal;
+  font-style: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1, 89;
   /* identical to box height, or 187% */
