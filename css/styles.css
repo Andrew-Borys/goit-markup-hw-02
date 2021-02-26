@@ -65,7 +65,7 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1, 36;
   /*color: #ffffff;*/
 }
 
@@ -87,7 +87,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1, 14px;
+  line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -125,8 +125,71 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1, 19;
 
   letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.address-str {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  /*color: #FFFFFF;*/
+}
+
+.address-contact {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  /*color: rgba(255, 255, 255, 0.6);*/
+}
+
+.navigation-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 63;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: #212121;
+  cursor: pointer;
+}
+
+.navigation-btn:hover,
+.navigation-btn:focus {
+  background-color: #2196f3;
+  color: aliceblue;
+}
+
+.portfolio-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2, 00;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-descrintion {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 89;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+  cursor: pointer;
   color: #757575;
 }
