@@ -28,7 +28,7 @@ body {
   line-height: 1, 19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-web {
