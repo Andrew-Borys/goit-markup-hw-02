@@ -2,9 +2,12 @@
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
   --title-text-color: #212121;
+  --logo-color: #000000;
   --discription-text-color: #757575;
   --accent-color: #2196f3;
   --background-color: #2f303a;
+  --white-text-back-color: #ffffff;
+  --back-team-color: #f5f4fa;
 }
 
 body {
@@ -24,18 +27,18 @@ body {
 
 .logo {
   font-family: var(--logo-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
 }
 
 .logo-web-header {
-  color: #000;
+  color: var(--logo-color);
 }
 
 .logo-web-footer {
-  color: #fff;
+  color: var(--white-text-back-color);
 }
 
 .nav-link {
@@ -86,7 +89,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-text-back-color);
 }
 
 .model-btn {
@@ -98,7 +101,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-text-color);
   cursor: pointer;
   letter-spacing: 0.06em;
 }
@@ -106,11 +109,11 @@ body {
 /*Features*/
 
 .features {
-  background-color: #fff;
+  background-color: var(--white-text-back-color);
 }
 
 .title-features {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -126,11 +129,11 @@ body {
 /*What-are-we-doing*/
 
 .what-we-do {
-  background-color: #fff;
+  background-color: var(--white-text-back-color);
 }
 
 .title-chapter {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--title-text-color);
@@ -139,11 +142,11 @@ body {
 /*Our-team*/
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--back-team-color);
 }
 
 .title-team {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--title-text-color);
@@ -175,7 +178,7 @@ body {
 .address-str {
   font-size: 14px;
   line-height: 24px;
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 
 .tel-address,
@@ -188,7 +191,7 @@ body {
 /*Filter-button*/
 
 .navigation-btn {
-  background: #f5f4fa;
+  background: var(--back-team-color);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -200,13 +203,13 @@ body {
 .navigation-btn:hover,
 .navigation-btn:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 
 /*Portfolio*/
 
 .portfolio-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
