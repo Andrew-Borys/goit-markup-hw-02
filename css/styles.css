@@ -101,7 +101,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   background-color: var(--accent-color);
-  color: var(--white-text-color);
+  color: var(--white-text-back-color);
   cursor: pointer;
   letter-spacing: 0.06em;
 }
@@ -178,7 +178,7 @@ body {
 .address-str {
   font-size: 14px;
   line-height: 24px;
-  color: var(--white-text-color);
+  color: var(--white-text-back-color);
 }
 
 .tel-address,
